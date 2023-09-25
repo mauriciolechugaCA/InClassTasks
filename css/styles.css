@@ -1,0 +1,16 @@
+/*
+    Mauricio Lechuga
+    Student Number - 8952857
+*/
+
+body {
+    font: 18px "Helvetica", sans-serif;
+    background-color: hsla(227, 62%, 33%, 0.75);
+    height: 75vh;
+    width: 85vw;
+}
+
+h2 {
+    color: #cc3;
+    font-size: 1.25em;
+}
