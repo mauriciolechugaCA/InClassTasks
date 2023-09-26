@@ -23,7 +23,7 @@ Tasks:
     2.	Link the CSS files to Index.html in the appropriate order.
     3.	Add your name and student number to the styles.css file using a CSS comment.
     4.	Add an external CSS rule for the body element to set the font using the shorthand property and the background color using the HSLA method and the height and width using viewport units.
-    5.	Create an inline CSS rule for the <h1> element to change the font color using the named color method and the font size using an absolute unit.
+    5.	Create an inline CSS rule for the -h1- element to change the font color using the named color method and the font size using an absolute unit.
     6.	Add an unordered list of 2 list items that are links that link to an external website.
     7.	Use an -h2- heading to label the list.  Set an external CSS rule to change the font color using the 3-digit hex and to change the font size using a relative unit.
     8.	Create an internal CSS rule to change the style of the bullets to a style of your choice (star, circle, etc.) and increase the -li- line height using a relative unit and change the font color property using the RGBA method.
