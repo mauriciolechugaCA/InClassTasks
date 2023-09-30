@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 
-    <!--This is the header-->
+    <!--This is the header. Does not show to the user-->
     <head>
         <title>Post Mortem - A podcast about creepypastas</title>
     </head>
@@ -24,33 +24,47 @@
             line-height: 2em;
             color: rgba(255, 140, 0, .9);
         }
+        a {
+            color: rgb(255, 255, 255);
+        }
     </style>
     
     <!--Here's where the website starts to show-->
     <body>
-        <main>
-            <h1 style="font-size: 32px; color: darkorange;">What are creepypastas?</h1>
-            
-            <p>Creepypastas are essentially internet urban legends or scary stories that have been shared across various online platforms like forums, social media, and websites.
+        <header class="structural">
+
+            <h1 style="font-size: 32px; color: darkorange;">Welcome to the world of creepypastas!</h1>         
+        
+        </header>
+
+        <main class="structural">
+            <h2>What are creepypastas?</h2>
+
+            <p id="firstParagraph">Creepypastas are essentially internet urban legends or scary stories that have been shared across various online platforms like forums, social media, and websites.
                 They often have a distinctive horror or supernatural theme, and they can be in the form of short stories, images, or videos.
                 What makes them unique is their collaborative and viral nature. Users create and share these eerie tales, adding their own twists and variations over time.
             </p>
 
-            <p>These stories can range from haunted video game legends to unsettling encounters in the woods, and they often blur the lines between fact and fiction.
+            <h2>What are the strories about?</h2>
+            
+            <p id="secondParagraph">These stories can range from haunted video game legends to unsettling encounters in the woods, and they often blur the lines between fact and fiction.
                 Creepypastas have become a fascinating subculture on the internet, sparking discussions, fan creations, and even adaptations into other media forms like video games and movies.
                 If you're into reading fiction and enjoy the thrill of the unknown, you might find diving into the world of creepypastas a captivating experience!
             </p>
 
-            <p><h2>These are two of the most famous examples of creepypastas:</h2>
+        </main>
+
+        <aside class="structural">
+            
+            <h2>These are two of the most famous examples of creepypastas:</h2>
                 <ul>
                     <li><a href="https://en.wikipedia.org/wiki/Slender_Man" target="_blank">Slender Man</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/Russian_Sleep_Experiment" target="_blank">The Russian Sleep Experiment</a></li>                </ul>
-            </p>
+            
+        </aside>
 
-        </main>
-
-        <footer>
-
+        <footer class="structural">
+            <p>&copy; Mauricio Lechuga 2023</p>
         </footer>
     </body>
 </html>

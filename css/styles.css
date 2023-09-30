@@ -4,13 +4,69 @@
 */
 
 body {
-    font: 18px "Helvetica", sans-serif;
-    background-color: hsla(227, 62%, 33%, 0.75);
-    height: 75vh;
-    width: 85vw;
+    max-width: 1200px;
+    font: 16px "Helvetica", sans-serif;
+    background-color: hsla(227, 62%, 33%, 1);
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    float: left;
+    width: 800px;
+}
+
+aside {
+    float: right;
+    max-width: 300px;
+}
+
+footer {
+    clear: both;
+}
+
+.structural {
+    padding: 0.3rem;
+    border: 3px solid #cc3;
+    margin: 0.7rem;
+}
+
+.structural main {
+    background-color: black;
+}
+
+header {
+    background-color: hsl(60, 60%, 60%);
+}
+
+main {
+    background-color: hsl(227, 62%, 20%);
+}
+aside {
+    background-color: hsl(227, 62%, 45%);
+}
+
+footer {
+    background-color: hsl(33, 100%, 60%);
+}
+
+footer p {
+    font-size: 0.8rem;
 }
 
 h2 {
     color: #cc3;
     font-size: 1.25em;
+}
+
+#firstParagraph {
+    color: rgb(180, 180, 180);
+}
+
+#secondParagraph {
+    color: rgb(230, 230 , 230);
+}
+
+a:hover {
+    color: #cc3;
 }
