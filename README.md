@@ -33,15 +33,15 @@
 <h1>In-Class Task 3</h1>
 <h2>Background: The purpose of this assignment is to provide you hands-on experience with building and presenting basic layouts for a web page and working with CSS selectors.</h2>
 <h3>Tasks:</h3>
-  <p>Add to the existing webpage you created for your In Class Task 2:</p>
+    <p>Add to the existing webpage you created for your In Class Task 2:</p>
     <ol>
-    <li>Add the following semantic elements: header, aside, main content and footer. Move the h1 to the header, move the <p> elements to the main and move the <ul> to the aside.  Create H2 headings for the main.</li>
+    <li>Add the following semantic elements: header, aside, main content and footer. Move the h1 to the header, move the P elements to the main and move the UL to the aside. Create H2 headings for the main.</li>
     <li>Using the float property change the layout of the website to alter the normal flow by arranging the main and aside elements to be beside each other.  Hint you will need to set the width for these elements.</li>
     <li>Add the header, main, aside and footer into a class called structural.</li>
     <li>Use the CSS box model to set the padding, borders and margins for the “structural” class created in #4.</li>
     <li>Give each paragraph a unique ID and change the font color using the RGB method for each P using the id selector.</li>
     <li>Using an element selector set a different background color using HSL method for each of the structural elements (header, main, aside and footer) of the web page so that different sections can be identified.</li>
     <li>Use a Pseudo-element selector to change the font color using 3-digit hex of the links when hovering.</li>
-    <li>Add a P to the footer that contains a copyright symbol and your name and the current year. Use a descendant combinator selector to reduce the <p> font size.</li>
+    <li>Add a P to the footer that contains a copyright symbol and your name and the current year. Use a descendant combinator selector to reduce the P font size.</li>
     <li>Commit and publish your project to your GitHub repository using git bash and then publish the page using GitHub.  Submit the link to your live public webpage.</li>
     </ol>
