@@ -2,8 +2,7 @@
 
 <h1> In-Class Task 1 </h1>
 <h2>The purpose of this assignment is to provide you with hands-on experience with HTML tags.</h2>
-<h3>Tasks:</h3>
-  <p>Create a web page on a topic of your choice with the following:</p>
+<h3>Tasks: </h3> Create a web page on a topic of your choice with the following:
     <ol>
       <li>An appropriate page title that would show up in the browser tab.</li>
       <li>Page heading in an appropriate tag.</li>
@@ -15,8 +14,7 @@
 
 <h1> In-Class Task 2 </h1>
 <h2>The purpose of this assignment is to provide you with hands-on experience with adding basic CSS styling to a webpage.</h2>
-<h3>Tasks:</h3>
-  <p>Add to the existing webpage you created for the In-Class Task 1:</p>
+<h3>Tasks: </h3> Add to the existing webpage you created for the In-Class Task 1:
     <ol>
       <li>Create a CSS folder that contains an external CSS style sheet named styles.css and add the normalize.css file.</li>
       <li>Link the CSS files to Index.html in the appropriate order.</li>
@@ -32,8 +30,7 @@
 
 <h1>In-Class Task 3</h1>
 <h2>The purpose of this assignment is to provide you hands-on experience with building and presenting basic layouts for a web page and working with CSS selectors.</h2>
-<h3>Tasks:</h3>
-    <p>Add to the existing webpage you created for your In Class Task 2:</p>
+<h3>Tasks: </h3> Add to the existing webpage you created for your In Class Task 2:
     <ol>
       <li>Add the following semantic elements: header, aside, main content and footer. Move the h1 to the header, move the P elements to the main and move the UL to the aside. Create H2 headings for the main.</li>
       <li>Using the float property change the layout of the website to alter the normal flow by arranging the main and aside elements to be beside each other.  Hint you will need to set the width for these elements.</li>
