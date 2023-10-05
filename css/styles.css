@@ -11,12 +11,12 @@ body {
 
 main {
     float: left;
-    width: 60%; 
+    width: 930px; 
 }
 
 aside {
     float: right;
-    width: 30%; 
+    width: 450px; 
 }
 
 footer {
@@ -58,11 +58,11 @@ h2 {
 }
 
 #firstParagraph {
-    color: rgb(180, 180, 180);
+    color: rgb(160, 160, 160);
 }
 
 #secondParagraph {
-    color: rgb(230, 230 , 230);
+    color: rgb(250, 250 , 250);
 }
 
 a:hover {
