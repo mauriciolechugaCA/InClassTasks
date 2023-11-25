@@ -3,20 +3,27 @@
     Student Number - 8952857
 */
 
+html {
+    font: 20px/1.5 "Helvetica", sans-serif;
+}
+
+
 body {
     width: 100vw;
     height: 100vh;
-    font: 18px "Helvetica", sans-serif;
+    font: 1rem "Helvetica", sans-serif;
     background-color: hsla(227, 62%, 33%, 1);
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
-    font-size: 2.5rem; color: darkorange;
+    font-size: 2rem; color: darkorange;
 }
 
 h2 {
     color: darkorange;
-    font-size: 2rem;
+    font-size: 1.25rem;
 }
 
 header {
@@ -30,39 +37,62 @@ nav li {
 }
 
 nav ul li a {
-    border: 2px solid indigo;
+    border: 0.25em solid indigo;
     color: indigo;
     background-color: cornsilk;
     text-decoration: none;
-    padding: 5px;
+    padding: 1em;
+
 }
 
 nav a:hover {
-    border: 2px solid cornsilk;
+    border: 0.25em solid cornsilk;
     color: cornsilk;
     background-color: indigo;
 }
 
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
 main {
-    float: left;
-    width: 65vw; 
+    flex: 2 1 70%;
     background-color: hsl(60, 60%, 60%);
 }
 
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 1rem;
+    column-gap: 1rem;
+}
+
+img {
+    width: 80%;
+    height: 80%;
+}
+
+figure {
+    border: 0.25em solid hsl(227, 62%, 45%);
+}
+
 aside {
-    float: right;
-    width: 25vw;
+    flex: 1 1 30%;
     background-color: hsl(227, 62%, 45%);
 }
 
 footer {
-    clear: both;
     background-color: hsl(33, 100%, 60%);
 }
 
 form {
-    border: 5px dashed hsl(33, 100%, 60%);
-    padding: 5px;
+    border: 0.25em dashed hsl(33, 100%, 60%);
+    padding: 0.25em;
 }
 
 input[type=text], input[type=email], input[type=submit], select, option {
@@ -92,9 +122,9 @@ fieldset {
 }
 
 .structural {
-    padding: 10px; 
-    border: 5px solid #cc3;
-    margin: 10px; 
+    padding: 1rem; 
+    border: 0.5rem solid #cc3;
+    margin: 1rem; 
 }
 
 .structural main {
@@ -129,4 +159,18 @@ aside a {
 
 aside a:hover {
     color: #cc3;
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 10px;
+    }
+
+    section {
+        display: block;
+    }
+
+    #gallery {
+        grid-template-columns: 1fr;
+    }
 }
